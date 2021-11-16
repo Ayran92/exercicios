@@ -1,13 +1,16 @@
-// programa na linguagem E1 sem erros léxicos
+// exemplo.e1
+// programa na linguagem E1 sem erros léxicos nem sintáticos
+// palavras-chave: const int return void
+// simbolos: +  -  *  /  =  ;   (  ) { }  
 
-    int a_bar;
-    const int b = 25;
-    int c;
+    const int b = 25;  
+    int c; 
     int q1;
+    {                 
+      int a_bar;
 
-    a_bar = 40;
-    c = b*b + a_bar;
+      a_bar = 40;
+      c = b*b + a_bar;
 
-    return q1 = c / (c-a);
-
-
+      return q1 = c / (c-a);
+    }                
